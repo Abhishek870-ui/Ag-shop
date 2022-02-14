@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- *****  This is a meta section  *****  -->
+
+  <meta charset="UTF-8">
+  <meta name="description" content=" Content for HTML,CSS,Bootstrap">
+  <meta name="keywords" content="html,css,bootstap,javascript,html and css,ag acadmy,ag">
+  <meta name="author" content="Abhishek Garg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+
+  <!-- *****  This is a fontawosme section  *****  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CDN  -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- css link section  -->
+
+  <link rel="stylesheet" href="css/resgistration.css">
+  <!-- ========================================================== this is script section =========================================================================-->
+
+  <script src="js/header-footer.js"></script>
+
+</head>
+
+<body>
+  <!-- ==========================================================this is a header section  =========================================================================-->
+
+  <div id="header"></div>
+  <!-- *** Background Section *** -->
+  <div class="background">
+    <div class="registration">
+      <div class="registration-heading">
+        <h1>Sign Up</h1>
+
+      </div>
+
+      <div class="registration-label">
+        <label>UserName</label>
+        <input type="text" id="uname" placeholder="Please enter your username">
+        <div class="error" id="error-username"></div>
+
+        <br>
+
+        <label>Email ID</label>
+        <input type="email" id="email" placeholder="Please enter your Emailid">
+        <div class="error" id="error-email"></div>
+
+
+        <br>
+
+        <label>Phone NO.</label>
+        <input type="number" id="phone" placeholder="Please enter your Phone No." required>
+        <div class="error" id="error-phone"></div>
+
+        <br>
+
+        <label>Password</label>
+        <input type="password" id="upwd" placeholder="Please enter your Password">
+        <div class="error" id="error-password"></div>
+
+        <br>
+
+        <label>Confirm Password</label>
+        <input type="password" id="cpwd" placeholder="Please enter your Confirm Password">
+        <div class="error" id="error-cpassword"></div>
+
+        <br>
+
+        <input type="Submit" id="submit" value="Signup" onclick="formValidation()">
+        <input type="button" value="Close" onclick="validateclose()">
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <!-- ==========================================================this is a footer section  =========================================================================-->
+
+  <div id="footer"></div>
+  <!--  *** Script section *** -->
+  <script src="js/registration.js"></script>
+
+</body>
+
+</html>

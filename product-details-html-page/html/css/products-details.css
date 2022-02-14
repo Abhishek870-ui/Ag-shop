@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+body{
+    background:linear-gradient(to right,#000046,#1CB5E0) ;
+}
+#products_details{
+    margin: auto;
+    margin-top: 5%;
+    background: linear-gradient(to top left,#B2FEFA,#0ED2F7);
+    border-radius: 50px;
+    padding: 3%;
+}
+#products_details h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #000046;
+}
+#products_details label{
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+#products_details input{
+    width : 60%;
+    float : right;
+    
+}
+#products_details select{
+    width : 60%;
+    float : right;
+}
+#products_details textarea{
+    width : 60%;
+    float : right;
+}
+#products_details input[type = submit]{
+    background-color: beige;
+    color: green;
+}

@@ -1,0 +1,84 @@
+*{
+    padding:  0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.background{
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    
+}
+.registration{
+    background-image: url("../img/wallpaperflare.com_wallpaper\ \(5\).jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin: 10px auto;
+    padding: 5%;
+    text-align: center;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.registration:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.registration-heading{
+    background-image: url("../img/wallpaperflare.com_wallpaper\ \(4\).jpg");
+    background-size: cover;
+    text-align: center;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+
+}
+.registration-heading:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.registration-heading h1{
+    padding:2px;
+    color :beige;
+    text-decoration: underline;
+}
+.registration-label{
+    margin-top: 5%;
+}
+.registration-label label{
+    color: antiquewhite;
+    font-size: large;
+}
+.registration-label input{
+    margin-top: 2%;
+    width : 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: blanchedalmond;
+    background-color: transparent;
+    border: 2px solid blanchedalmond;
+}
+.registration-label input[type=Submit]{
+    cursor: pointer;
+}
+.registration-label input[type=Submit]:hover{
+    background: linear-gradient(to right,#1f4037,#99f2c8);
+}
+.registration-label input[type=button]{
+    cursor: pointer;
+}
+.registration-label input[type=button]:hover{
+    background: linear-gradient(to right,#1f4037,#99f2c8);
+}
+.error{
+    color: red;
+}

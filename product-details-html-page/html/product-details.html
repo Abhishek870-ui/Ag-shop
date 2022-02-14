@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- this is meta section -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this is title section -->
+    <title>Product detail insertion section</title>
+
+    <!-- this is bootstrap cdn  section -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <!-- this is css section -->
+    <link rel="stylesheet" href="css/products-details.css">
+</head>
+
+<body>
+
+    <!-- this is form section -->
+    <div class="container " id="products_details">
+        <h1>Enter Products Detalis</h1>
+        <form method="post" action="http://localhost:8080/product/saveProduct">
+            <label for="p_id">Product Name</label>
+            <input type="text" id="p_name" name="p_name" placeholder="Please enter Product Name" >
+            <br>
+            <label for="p_id">Product Brand</label>
+            <input type="text" id="p_brand" name="p_brand" placeholder="Please enter Product Brand" >
+            <br>
+            <label for="p_id">Product Category</label>
+            <select name="product_category" id="product_category" >
+                <option value="tshirt">T-shirt</option>
+                <option value="shirt">Shirt</option>
+                <option value="pents">Pents</option>
+                <option value="lowers">Lowers</option>
+                <option value="watch">Watch</option>
+            </select>
+            <br>
+            <label for="p_id">Product Image</label>
+            <input type="file" id="p_img" name="p_img" >
+            <br>
+            <label for="p_id">Product description</label>
+            <textarea name="desc" id="p_desc" name="p_desc" cols="30" ></textarea>
+            <br>
+            <label for="p_id">Product price</label>
+            <input type="number" id="p_price" name="p_price" placeholder="Please enter Product Price"
+                >
+            <br>
+            <input type="submit" id="send" value="send">
+            
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- *****  This is a meta section  *****  -->
+
+    <meta charset="UTF-8">
+    <meta name="description" content=" Content for HTML,CSS,Bootstrap">
+    <meta name="keywords" content="html,css,bootstap,javascript,html and css,ag acadmy,ag">
+    <meta name="author" content="Abhishek Garg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <!-- *****  This is a fontawosme section  *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CDN  -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- css link section  -->
+
+    <link rel="stylesheet" href="css/login.css">
+    <!-- ========================================================== this is script section =========================================================================-->
+
+    <script src="js/header-footer.js"></script>
+
+
+</head>
+
+<body>
+    <!-- ==========================================================this is a header section  =========================================================================-->
+
+    <div id="header"></div>
+    <!-- *** Background Section *** -->
+    <div class="background">
+        <div class="login">
+            <div class="login-heading">
+                <h1>Sign IN</h1>
+
+            </div>
+
+            <div class="login-label">
+                <label>UserName / Email Id</label>
+                <input type="text" id="uname" placeholder="Please enter your username ">
+                <div class="error" id="error-username"></div>
+
+                <br>
+                <br>
+
+
+                <label>Password</label>
+                <input type="password" id="upwd" placeholder="Please enter your Password">
+                <div class="error" id="error-password"></div>
+
+                <br>
+                <br>
+
+
+
+                <input type="button" id="submit" onclick="validate()" value="Login">
+                <input type="button" onclick="validatesignin()" value="SignUP">
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- ==========================================================this is a footer section  =========================================================================-->
+
+    <div id="footer"></div>
+    <!--  *** login Sign *** -->
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

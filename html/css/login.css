@@ -1,0 +1,80 @@
+*{
+    padding:  0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.background{
+    background-image: url("../img/wallpaperflare.com_wallpaper\ \(3\).jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    padding: 5vmin;
+}
+.login{
+    background-image: url("../img/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin: 10px auto;
+    padding: 25vmin;
+    text-align: center;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.login:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.login-heading{
+    background-image: url("../img/wallpaperflare.com_wallpaper\ \(2\).jpg");
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5% ;
+  
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+
+}
+.login-heading:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.login-heading h1{
+    padding: 5px;
+    color :beige;
+    text-decoration: underline;
+}
+.login-label{
+    margin-top: 15%;
+}
+.login-label label{
+    color: antiquewhite;
+    font-size: large;
+}
+.login-label input{
+    margin: 3%;
+    width : 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: blanchedalmond;
+    background-color: transparent;
+    border: 2px solid blanchedalmond;
+}
+.login-label input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+.login-label input[type=button]{
+    cursor: pointer;
+}
+.login-label input[type=button]:hover{
+    background: linear-gradient(to right,#1f4037,#99f2c8);
+}
